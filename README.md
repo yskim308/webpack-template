@@ -1,5 +1,9 @@
 # webpack-template
 
+### if cloned:
+
+just npm install in root (npx webpack to build to dist)
+
 ### Create package.json 
 
 `npm init -y`
@@ -37,7 +41,7 @@ in this case, it will just be the html plugin for the template
         },
         plugins:[
             new HtmlWebpackPlugin({
-                template: './src/template.html'
+                template: './src/index.html'
             })
         ],
         devtool: 'inline-source-map',
